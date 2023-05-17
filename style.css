@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+}
+main{
+    background-color: rgb(0, 0, 0);
+}
+.fila{
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 2% 57% 10% 10% 7% 7% 7%;
+}
+input {
+  margin: 2px;
+  border: 2px solid transparent;
+  outline: none;
+  border-bottom: 2px solid #3f3f3f;
+  caret-color: #3f3f3f;
+  background-color: #212121;
+  padding: 5px;
+  transition: .5s linear;
+  font-family: monospace;
+  letter-spacing: 1px;
+  color: #ffd500;
+}
+input:focus {
+  border: 2px solid #ffd500;
+  caret-color: #ffd500;
+  color: #ffd500;
+  box-shadow: 4px 4px 10px #070707;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    color: white;
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas:
+    "footer1 footer1"
+    "footer2 footer3";
+}
+article div{
+    margin: 20px;
+    padding: 100px;
+    background: #212121;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),-15px -15px 30px rgb(60, 60, 60);
+    border: 2px solid rgb(255, 255, 255);
+}
+.totalCadetes, #total{
+    color: #ffd500;
+}
+article div span label{
+    margin: 10px;
+}
+
+.article1{
+    grid-area: footer1;
+}
+.article2{
+    grid-area: footer2;
+}
+.article3{
+    grid-area: footer3;
+}
+.article3 span{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.article1, .article2, .article3{
+    height: 87px;
+}
+button {
+  background: #FBCA1F;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+button:hover {
+ box-shadow: 7px 5px 56px -14px #C3D900;
+}
+
+button:active {
+ transform: scale(0.97);
+ box-shadow: 7px 5px 56px -10px #C3D900;
+}
+
+footer{
+    background-color:#FBCA1F;
+    height: 200px;
+    border-radius: 20px;
+    margin: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+footer h2{
+    margin: 20px;
+}
+.wsp{
+    width: 25%;
+}

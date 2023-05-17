@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="grid" id="tabla">
+        <div class="fila">
+            <label>N°</label>
+            <label>Pedido</label>
+            <label>Nombre</label>
+            <label>Total</label>
+            <label></label>
+            <label>Cadetes</label>
+        </div>
+        <!-- <div class="fila">
+            <label class="nro">Contador</label>
+            <input type="text">
+            <input type="text">
+            <input type="number" class="inputTotal">
+            <input type="number" class="cadete1">
+            <input type="number" class="cadete2">
+            <input type="number" class="cadete3">
+        </div> -->
+    </main>
+    <section>
+        <article>
+            <div class="article1">
+                <span>
+                    <label>Cadete 1 - Nombre: </label>
+                    <input type="text" class="nombresCadetes">
+                </span>
+                <span>
+                    <label>Cadete 2 - Nombre: </label>
+                    <input type="text" class="nombresCadetes">
+                </span>
+                <span>
+                    <label>Cadete 3 - Nombre: </label>
+                    <input type="text" class="nombresCadetes">
+                </span>
+            </div>
+            <span class="article2">
+                <div>
+                    <button id="btn-total">Calcular Total</button>
+                    <span>
+                        <label>Total: </label>
+                        <label id="total">0</label>
+                    </span>
+                </div>
+            </span>
+            <div class="article3">
+                <span>
+                    <button id="btn-envios">Calcular Envios</button>
+                </span>
+                <span>
+                    <span>
+                        <label class="cadetes">Completar: </label>
+                        <label class="totalCadetes">0</label>
+                    </span>
+                    <span>
+                        <label class="cadetes">Completar: </label>
+                        <label class="totalCadetes">0</label>
+                    </span>
+                    <span>
+                        <label class="cadetes">Completar: </label>
+                        <label class="totalCadetes">0</label>
+                    </span>
+                </span>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <h2>
+            Powered by Mingolla Francisco, Copyright. © 2023 Mingolla Francisco. Todos los derechos reservados.
+        </h2>
+        <div>
+            <a href="https://wa.link/d6gtie">
+                <img class="wsp" src="./img/whatsapp.svg" alt="whatsapp francisco mingolla, wsp mingolla francisco">
+            </a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
